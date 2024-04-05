@@ -135,8 +135,8 @@ class SocialMediaViewer(QMainWindow):
         else:
             return None
         
-    def process_video(self):
-        self.process_bar.setValue()
+    def process_video(self,process_url):
+        self.process_bar.setValue(process_url)
         
 if __name__ == "__main__":
     app = QApplication(sys.argv)
