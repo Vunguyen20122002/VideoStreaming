@@ -44,7 +44,7 @@ class SocialMediaViewer(QMainWindow):
 
         self.webview = QWebEngineView()
         self.layout.addWidget(self.webview)
-        self.webview.loadStarted.connect(self.process_video)
+        self.webview.loadProgress.connect(self.process_video)
         
         
         hbox_layouts = QHBoxLayout()
