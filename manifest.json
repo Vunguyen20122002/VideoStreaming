@@ -1,0 +1,16 @@
+{
+    "name": "Player Video Viewer",
+    "description": "A simple YouTube viewer app built with Python and PyQt.",
+    "version": "1.0",
+    "author": "Your Name",
+    "main": "main.py",
+    "scripts": {
+      "start": "python main.py"
+    },
+    "dependencies": {
+      "PyQt5": "^5.15.4",
+      "PyQtWebEngine": "^5.15.4"
+    },
+    "license": "MIT"
+  }
+  
